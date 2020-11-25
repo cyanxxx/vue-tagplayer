@@ -1,17 +1,45 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <vue-tagplayer :options="options" :initTagPlayer="initTagPlayer" @timeupdate="handleChange" @add_tags="refreshHighlight"></vue-tagplayer>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  data() {
+    return {
+      options: {
+        loop: false,
+        video: {
+          url: 'http://static.smartisanos.cn/common/video/t1-ui.mp4',
+          pic: 'http://static.smartisanos.cn/pr/img/video/video_03_cc87ce5bdb.jpg'
+        },
+        sendTag: this.handleTag
+      },
+      tp: null
+    }
+  },
+  methods: {
+    handleTag() {
+      return new Promise((res) => {
+        res()
+      })
+    },
+    refreshHighlight() {
+      this.tp.setHighlight([{
+        text: 1,
+        time: 2
+      }])
+    },
+    initTagPlayer(tp) {
+      console.log(tp)
+      this.tp = tp
+    },
+    handleChange() {
+      console.log(this.tp.video.currentTime)
+    }
   }
 }
 </script>

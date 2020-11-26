@@ -1,7 +1,10 @@
 {
   "name": "vue-tagplayer",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "vue-tagplayer",
+  "main": "lib/vue-tagplayer.umd.min.js",
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

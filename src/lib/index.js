@@ -1,6 +1,6 @@
 import vueTagplayer from './vue-tagplayer.vue'
 const tagplayer = {
-    install(Vue, options) {
+    install(Vue) {
         Vue.component(vueTagplayer.name, vueTagplayer) 
     }
 }

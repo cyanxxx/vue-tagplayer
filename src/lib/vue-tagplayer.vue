@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import TagPlayer from '@/assets/tagplayer/TagPlayer.min'
+import TagPlayer from 'tagplayer'
 const events = [
     "abort", "canplay", "canplaythrough",
     "durationchange", "emptied", "ended",

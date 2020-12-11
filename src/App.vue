@@ -13,7 +13,8 @@ export default {
       options: {
         loop: false,
         video: {
-          url: 'http://static.smartisanos.cn/common/video/t1-ui.mp4',
+          url: 'https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8',
+          type: 'hls',
           pic: 'http://static.smartisanos.cn/pr/img/video/video_03_cc87ce5bdb.jpg'
         },
         sendTag: this.handleTag

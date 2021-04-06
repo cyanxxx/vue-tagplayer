@@ -1,6 +1,6 @@
 {
   "name": "vue-tagplayer",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": false,
   "description": "vue-tagplayer",
   "main": "lib/vue-tagplayer.umd.min.js",
@@ -9,11 +9,11 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib" : "vue-cli-service build  --target lib --vue-tagplayer --dest lib src/lib/index.js"
+    "lib": "vue-cli-service build  --target lib --vue-tagplayer --dest lib src/lib/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "tagplayer": "^1.0.0",
+    "tagplayer": "^1.0.5",
     "vue": "^2.6.11"
   },
   "devDependencies": {

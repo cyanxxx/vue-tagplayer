@@ -66,7 +66,7 @@ export default {
   },
   destroyed() {
     console.log("destroy video.");
-    this.tp.destroy();
+    this.tp && this.tp.destroy();
   },
   methods: {
     registerEvent(player) {

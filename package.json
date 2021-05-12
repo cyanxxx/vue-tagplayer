@@ -1,6 +1,6 @@
 {
   "name": "vue-tagplayer",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "private": false,
   "description": "vue-tagplayer",
   "main": "lib/vue-tagplayer.umd.min.js",
@@ -18,7 +18,7 @@
   ],
   "dependencies": {
     "core-js": "^3.6.5",
-    "tagplayer": "^1.0.9",
+    "tagplayer": "^1.0.10",
     "vue": "^2.6.11"
   },
   "devDependencies": {

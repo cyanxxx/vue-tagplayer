@@ -7633,10 +7633,10 @@ table@^5.2.3:
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
 
-tagplayer@^1.0.0:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/tagplayer/-/tagplayer-1.0.3.tgz#86da2112e80211de6b7dbb5d511a634e0072e768"
-  integrity sha512-Y+iilH8tjjbHcxGVOsmo+i6yVxbVf1rRk3vJcI1hQgSQJwYHRmY8RWQCZ9Rk1E+b45v3jpxZ3gLHDpbtbcVuRw==
+tagplayer@^1.0.13:
+  version "1.0.13"
+  resolved "https://registry.npmjs.org/tagplayer/-/tagplayer-1.0.13.tgz#d8b1c1012bde4cc54221130b4e537ec1ca7630de"
+  integrity sha512-FOhoOO5ZoQkauDwDozWW6t6wyGBbixhiny6DXkAU1kM17ve7S+waIiYcU0rNqSazIf8zKhTr4KrzzprjB/VPKg==
   dependencies:
     axios "0.21.0"
     balloon-css "^1.0.3"
